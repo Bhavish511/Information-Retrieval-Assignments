@@ -1,0 +1,53 @@
+Assignment #3
+Name: Bhavish Kumar
+Roll number: 21k-3450
+----------------------------------------------------------------------------------------------------------------
+Classification and Clustering using KNN and K-means Algorithms
+This repository contains Python scripts implementing the K Nearest Neighbors (KNN) algorithm and the K-Means clustering algorithm, along with a README file providing instructions and information about the assignment.
+
+Contents of the Zip File:
+1)->T1.py: Python script implementing the K Nearest Neighbors (KNN) algorithm.
+2)->T2.py: Python script implementing the K-Means clustering algorithm.
+3)->T1_H.py: Python script implementing the K Nearest Neighbors (KNN) algorithm with harcode the test documents.
+4)->tfidf_results.txt: Text file containing TF-IDF vectors for documents.
+5)->README: Readme file providing information about the assignment, instructions, and details about the scripts.
+
+Library Requirements:
+Python 3.x
+tkinter library
+numpy library
+sklearn library
+matplotlib library
+
+----------------------------------------------------------------------------------------------------------------
+1. K Nearest Neighbors (KNN)
+File: T1.py
+This file implements the K Nearest Neighbors (KNN) algorithm using Python's tkinter library for building graphical user interfaces (GUIs). The KNN algorithm is used for classification tasks based on the concept of Euclidean Distance between data points.
+
+Functionality:
+The KNNClassifier class is defined, which allows training and prediction using the KNN algorithm.
+The script loads TF-IDF results from a file (tfidf_results.txt) from a previous assignment and calculates metrics such as precision, recall, accuracy, and F1 score for evaluating the KNN model.
+The GUI allows users to enter the value of K and evaluate the KNN classifier.
+Test documents are displayed along with their predicted labels after evaluation.
+
+How to Run:
+Ensure you have Python and the required libraries installed.
+Run the T1.py script.
+Enter the value of K in the GUI and click the "Evaluate" button.
+View the evaluation results and test documents displayed in the GUI.
+----------------------------------------------------------------------------------------------------------------
+2. K-Means Clustering
+File: T2.py
+This file implements the K-Means clustering algorithm using Python's tkinter library for building GUIs. K-Means clustering is an unsupervised machine learning algorithm used for partitioning data into K clusters based on Euclidean Distance.
+
+Functionality:
+The script loads TF-IDF results from a file (tfidf_results.txt) from a previous assignment and performs K-Means clustering on the document vectors.
+Evaluation metrics such as purity, Rand index, and silhouette score are calculated for evaluating the clustering results.
+The GUI allows users to enter the value of K and visualize the clustering results.
+
+How to Run:
+Ensure you have Python and the required libraries installed.
+Run the T2.py script.
+Enter the value of K in the GUI and click the "Evaluate" button.
+View the evaluation results, including purity, Rand index, silhouette score, total correct assignments, and seed documents, displayed in the GUI.
+Optionally, view the silhouette score vs. number of clusters plot.
